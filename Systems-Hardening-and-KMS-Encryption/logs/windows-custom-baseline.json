@@ -1,0 +1,25 @@
+{
+  "BaselineId": "pb-0f1e2d3c4b5a67890",
+  "Name": "Custom-Windows-Baseline",
+  "OperatingSystem": "WINDOWS",
+  "ApprovalRules": {
+    "PatchRules": [
+      {
+        "PatchFilterGroup": {
+          "PatchFilters": [
+            { "Key": "PRODUCT", "Values": ["WindowsServer2019"] },
+            { "Key": "CLASSIFICATION", "Values": ["CriticalUpdates", "SecurityUpdates"] }
+          ]
+        },
+        "ApproveAfterDays": 7,
+        "ComplianceLevel": "CRITICAL",
+        "EnableNonSecurity": false
+      }
+    ]
+  },
+  "ApprovedPatchesEnableNonSecurity": false,
+  "RejectedPatches": [],
+  "DefaultBaseline": true,
+  "CreatedTime": "2026-01-27T09:30:00Z",
+  "Notes": "This baseline targets Windows Server 2019 and auto-approves critical/security updates after 7 days (change window). Marked as DefaultBaseline so new Windows instances inherit it unless overridden."
+}
