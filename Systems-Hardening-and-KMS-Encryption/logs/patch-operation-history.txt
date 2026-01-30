@@ -1,0 +1,9 @@
+# Day 2 – Patch & KMS Demo: Ops Timeline (human-readable)
+# Purpose: Help reviewers follow the sequence of actions and outcomes.
+
+[2026-01-27 10:05:22Z] SSM Patch Scan started (Linux tag: Env=Prod-Linux)
+[2026-01-27 10:06:41Z] Scan completed: 3 patches missing (2 security, 1 non-security). Next step: run INSTALL.
+[2026-01-27 10:12:03Z] SSM Patch Install started for instance i-0abc123def4567890
+[2026-01-27 10:19:44Z] Install completed: 3 installed, 0 failed (reboot required). Compliance will refresh shortly.
+[2026-01-27 10:35:00Z] Compliance refreshed: instance i-0abc123def4567890 COMPLIANT (no pending updates).
+[2026-01-27 10:40:18Z] Windows baseline scheduled (Custom-Windows-Baseline, ApproveAfterDays=7) — explains temporary non-compliance on Windows node while awaiting approval window.
