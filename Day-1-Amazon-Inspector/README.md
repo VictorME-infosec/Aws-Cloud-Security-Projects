@@ -1,7 +1,7 @@
 # 🛡️ Amazon Inspector Vulnerability Analysis
 
 ## 🔍 Overview
-This lab focuses on using **Amazon Inspector** to identify, analyze, and remediate vulnerabilities across EC2 instances and Lambda functions. The objective was to understand how AWS provides automated vulnerability scanning and how findings can be reviewed and fixed using best practices.
+This project focuses on using **Amazon Inspector** to identify, analyze, and remediate vulnerabilities across EC2 instances and Lambda functions. The objective was to understand how AWS provides automated vulnerability scanning and how findings can be reviewed and fixed using best practices.
 
 ---
 
