@@ -1,0 +1,9 @@
+{
+  "KeyId": "arn:aws:kms:eu-west-2:123456789012:key/341e7333-34a7-4a61-ac58-95f82c821ff6",
+  "EncryptionAlgorithm": "SYMMETRIC_DEFAULT",
+  "PlaintextSHA256": "f3a1b7ef4d0d1d7c6b9e8e2f1a5d9b2c1a7b7fb19c8b1a0d5f2d1e9c4b5a6e7f",
+  "CiphertextBlobBase64": "AQICAHj...REPLACED_FOR_DEMO...9Q==",
+  "RequestId": "7f6aa8ad-4f7c-4f29-9a1e-92e0f845f0aa",
+  "Timestamp": "2026-01-27T11:12:45Z",
+  "Notes": "Encrypt takes plaintext bytes and returns a base64-encoded CiphertextBlob that can only be decrypted with the same KMS key and permissions."
+}
