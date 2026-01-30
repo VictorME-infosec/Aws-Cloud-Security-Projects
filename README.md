@@ -24,7 +24,7 @@ The goal is to demonstrate **practical, job-ready cloud security skills** releva
 
 ## 📁 Projects Included
 
-### **Day 1 — Amazon Inspector Vulnerability Analysis**
+### ** Amazon Inspector Vulnerability Analysis**
 - Activate & configure Amazon Inspector  
 - Review EC2 & Lambda findings  
 - Remediate package & OS vulnerabilities  
@@ -32,7 +32,7 @@ The goal is to demonstrate **practical, job-ready cloud security skills** releva
 
 ---
 
-### **Day 2 — Systems Hardening & KMS Encryption**
+### ** Systems Hardening & KMS Encryption**
 - Patch Manager for Linux & Windows  
 - Custom patch baselines  
 - Data encryption using AWS KMS  
@@ -40,7 +40,7 @@ The goal is to demonstrate **practical, job-ready cloud security skills** releva
 
 ---
 
-### **Day 3 — IAM & AWS Network Firewall**
+### ** IAM & AWS Network Firewall**
 - IAM password policies  
 - Group/user permissions  
 - Build & test AWS Network Firewall  
@@ -48,7 +48,7 @@ The goal is to demonstrate **practical, job-ready cloud security skills** releva
 
 ---
 
-### **Day 4 — EC2 Monitoring with CloudWatch**
+### ** EC2 Monitoring with CloudWatch**
 - SNS notifications  
 - CloudWatch alarms & dashboards  
 - Testing alert triggers  
@@ -56,7 +56,7 @@ The goal is to demonstrate **practical, job-ready cloud security skills** releva
 
 ---
 
-### **Day 5 — CloudTrail Security Investigation**
+### ** CloudTrail Security Investigation**
 - IAM suspicious activity detection  
 - Event analysis using CloudTrail  
 - Basic incident investigation workflow  
