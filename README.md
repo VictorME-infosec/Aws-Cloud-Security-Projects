@@ -51,8 +51,8 @@ These projects highlight real-world security workflows, evidence-based remediati
 - Enable Amazon Inspector  
 - Review Lambda & EC2 findings  
 - Remediate vulnerable Python packages  
-- Validate findings move to “Closed”  
- ➡️ [![Open Project](https://img.shields.io/badge/Open_Project-aws__cloud__security__network__hardening-2ea44f?style=for-the-badge&logo=github)](./aws-cloud-security-network-hardening/)
+- Validate findings move to “Closed”
+[![Open Project](https://img.shields.io/badge/Open_Project-aws__cloud__security__network__hardening-2ea44f?style=for-the-badge&logo=github)](./aws-cloud-security-network-hardening/)
 
 </details>
 
