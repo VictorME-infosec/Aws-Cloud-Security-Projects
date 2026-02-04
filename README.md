@@ -52,7 +52,7 @@ These projects highlight real-world security workflows, evidence-based remediati
 - Review Lambda & EC2 findings  
 - Remediate vulnerable Python packages  
 - Validate findings move to “Closed”  
-➡️ `./Amazon-Inspector-Vulnerability-Analysis`
+➡️ `./aws-cloud-security-network-hardening`
 
 </details>
 
