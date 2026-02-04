@@ -1,9 +1,11 @@
-# Aws-Cloud-Security-Projects
-
 # 🌩️ AWS Cloud Security Projects
 
-This repository is a collection of hands-on **AWS security labs and projects** completed as part of my cloud cybersecurity learning journey.  
-Each project focuses on real-world security tasks including:
+<p align="center">
+  <!-- Optional banner (add your own image later) -->
+  <!-- <img src="./assets/aws-cloud-security-banner.png" width="800"> -->
+</p>
+
+Welcome to my **AWS Cloud Security Projects** repository — a collection of hands‑on cloud security labs and implementations showcasing practical skills in:
 
 - Vulnerability analysis  
 - Systems hardening  
@@ -13,89 +15,146 @@ Each project focuses on real-world security tasks including:
 - Data encryption  
 - CloudTrail log investigation  
 
-The goal is to demonstrate **practical, job-ready cloud security skills** relevant to roles such as:
-
-- SOC Analyst  
-- Cloud Security Analyst  
-- Cybersecurity Technician  
-- Security Engineer (Junior)  
+These projects highlight real-world security workflows, evidence-based remediation, and cloud‑native security practices.
 
 ---
 
-## 📁 Projects Included
+## 🚀 Project Navigator
 
-### ** Amazon Inspector Vulnerability Analysis**
-- Activate & configure Amazon Inspector  
-- Review EC2 & Lambda findings  
-- Remediate package & OS vulnerabilities  
-➡️ `/Day-1-Amazon-Inspector-Vulnerability-Analysis`
+| Project | Description | Link |
+|--------|-------------|------|
+| 🛡️ Amazon Inspector Vulnerability Analysis | Scan & remediate CVEs in Lambda and EC2 | ./Amazon-Inspector-Vulnerability-Analysis |
+| 🔐 Systems Hardening & KMS Encryption | Patch management & encryption workflows | ./Systems-Hardening-and-KMS-Encryption |
+| 👤 IAM & Network Firewall | Identity governance & segmentation | ./IAM-and-Network-Firewall |
+| 📈 EC2 Monitoring with CloudWatch | Dashboards, alarms & SNS alerts | ./EC2-Monitoring-CloudWatch |
+| 🕵️ CloudTrail Security Investigation | Investigate suspicious events | ./CloudTrail-Incident-Investigation |
 
 ---
 
-### ** Systems Hardening & KMS Encryption**
-- Patch Manager for Linux & Windows  
+## 🧭 Table of Contents
+
+- #projects-overview
+- #aws-tools-used
+- #skills-demonstrated
+- #project-map-mermaid-diagram
+- #contact
+
+---
+
+## 📁 Projects Overview
+
+### 🛡️ Amazon Inspector Vulnerability Analysis  
+<details>
+<summary><strong>Click to Expand</strong></summary>
+
+**Focus:** Vulnerability detection, CVE remediation, secure Lambda dependencies  
+- Enable Amazon Inspector  
+- Review Lambda & EC2 findings  
+- Remediate vulnerable Python packages  
+- Validate findings move to “Closed”  
+➡️ `./Amazon-Inspector-Vulnerability-Analysis`
+
+</details>
+
+---
+
+### 🔐 Systems Hardening & KMS Encryption  
+<details>
+<summary><strong>Click to Expand</strong></summary>
+
+**Focus:** Patch management, secure configuration, encryption  
+- Automated patching for Windows/Linux  
 - Custom patch baselines  
 - Data encryption using AWS KMS  
-➡️ `/Day-2-Systems-Hardening-and-KMS-Encryption`
+➡️ `./Systems-Hardening-and-KMS-Encryption`
+
+</details>
 
 ---
 
-### ** IAM & AWS Network Firewall**
-- IAM password policies  
-- Group/user permissions  
-- Build & test AWS Network Firewall  
-➡️ `/Day-3-IAM-and-Network-Firewall`
+### 👤 IAM & Network Firewall  
+<details>
+<summary><strong>Click to Expand</strong></summary>
+
+**Focus:** Identity governance, segmentation, access control  
+- Strengthen IAM password policies  
+- Implement least‑privilege permissions  
+- Deploy AWS Network Firewall  
+➡️ `./IAM-and-Network-Firewall`
+
+</details>
 
 ---
 
-### ** EC2 Monitoring with CloudWatch**
-- SNS notifications  
-- CloudWatch alarms & dashboards  
-- Testing alert triggers  
-➡️ `/Day-4-EC2-Monitoring-CloudWatch`
+### 📈 EC2 Monitoring with CloudWatch  
+<details>
+<summary><strong>Click to Expand</strong></summary>
+
+**Focus:** Monitoring, alerting, dashboards  
+- Configure SNS alerts  
+- Build CloudWatch dashboards  
+- Simulate metric breaches for testing  
+➡️ `./EC2-Monitoring-CloudWatch`
+
+</details>
 
 ---
 
-### ** CloudTrail Security Investigation**
-- IAM suspicious activity detection  
-- Event analysis using CloudTrail  
-- Basic incident investigation workflow  
-➡️ `/Day-5-CloudTrail-Incident-Investigation`
+### 🕵️ CloudTrail Security Investigation  
+<details>
+<summary><strong>Click to Expand</strong></summary>
+
+**Focus:** Threat detection, event tracing  
+- Detect IAM/API anomalies  
+- Investigate CloudTrail logs  
+- Build a security investigation workflow  
+➡️ `./CloudTrail-Incident-Investigation`
+
+</details>
 
 ---
 
-## 🛠️ AWS Tools Used
+## 🧰 AWS Tools Used
 
-### Monitoring & Logging
-- AWS CloudWatch  
-- AWS CloudTrail  
-
-### Identity & Access
-- AWS IAM  
-
-### Threat Detection
+### 🔎 Threat Detection
 - Amazon Inspector  
 - AWS Network Firewall  
 
-### Systems Hardening
-- AWS Systems Manager (Patch Manager)  
-- AWS SSM Baselines  
+### 👤 Identity & Access  
+- AWS IAM  
 
-### Data Security
-- AWS Key Management Service (KMS)  
+### 🛠️ Systems Hardening  
+- AWS Systems Manager (Patch Manager)  
+- SSM Baselines  
+
+### 📈 Monitoring & Logging  
+- Amazon CloudWatch  
+- AWS CloudTrail  
+
+### 🔐 Data Protection  
+- AWS Key Management Service (KMS)
 
 ---
 
 ## 🧠 Skills Demonstrated
-- Cloud threat detection  
-- Vulnerability assessment & remediation  
-- IAM access control  
-- Network segmentation & firewalling  
-- Real-time alerting with SNS & CloudWatch  
-- Encryption key management  
-- Log investigation & workflow documentation  
+
+- Cloud vulnerability detection & remediation  
+- Secure configuration & system hardening  
+- IAM policy design & least‑privilege access  
+- Network segmentation & firewall rule deployment  
+- AWS event monitoring & SNS alerting  
+- Encryption & key lifecycle management  
+- Incident investigation & log analysis  
+- End‑to‑end workflow documentation  
 
 ---
 
-## 📬 Contact
-If you’d like to discuss cloud security or collaborate, feel free to connect!
+## 🗺️ Project Map (Mermaid Diagram)
+
+```mermaid
+flowchart LR
+    A[AWS Cloud Security Projects] --> B[Amazon Inspector]
+    A --> C[Systems Hardening + KMS]
+    A --> D[IAM + Network Firewall]
+    A --> E[CloudWatch Monitoring]
+    A --> F[CloudTrail Investigations]
