@@ -52,7 +52,7 @@ These projects highlight real-world security workflows, evidence-based remediati
 - Review Lambda & EC2 findings  
 - Remediate vulnerable Python packages  
 - Validate findings move to “Closed”  
- ➡️ **Project:** [aws-cloud-security-network-hardening](./aws-cloud-security-network-hardening/
+ ➡️ [AWS Inspector Vulnerability Assessment — Network Hardening Lab](./aws-cloud-security-network-hardening/README.md)
 
 </details>
 
